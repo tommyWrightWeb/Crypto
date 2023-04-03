@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Serif+JP:wght@700&display=swap');
+body{
+   font-family: 'Itim', cursive;
+   font-family: 'Noto Serif JP', serif;
+}
+
+#container{
+   width: 92vw;
+   display: flex;
+   margin: 0 auto;
+   
+   margin-bottom: 100px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   overflow-x: scroll;
+   height: 500px;
+}
+
+#cont{
+   font-size: 50px;
+}
+
+
+#div{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+#market{
+   text-align: center;
+   color: white;
+   font-size: 60px;
+}
+#joinUs{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+}
+.contact{
+   color: white;
+}
+#telegram{
+   color:#220440;
+font-size: 70px;}
+
+
+#data{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+body img{
+   width: 40px;
+   height: 40px;
+}
+
+
+#tableScroll{
+   text-align: center;
+   color: #220440;
+}
+.navbar-brand{
+   color: white;
+}
+
+#title{
+   color: wheat;
+ width: 100vw;
+   height: 600px;
+   text-align: center;
+   margin-top: 100px;
+}
+
+#title h1{
+   font-size: 80px;
+}
+#buy{
+   padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+ .navbar-nav{
+  display: flex;
+color: white;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  justify-content: center;
+  }
+
+ #top{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .nav-item{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+ }
+
+ #crypto{
+    color: black;
+ }
+
+ body{
+   background: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+ }
+ .logo{
+    width: 100px;
+    height: 100px;
+ }
+
+ .logo {
+  
+   background-color: transparent;
+   animation: bounce 1.75s;
+   animation-direction: alternate;
+   animation-timing-function: cubic-bezier(0.01, 0.01, 0.01, 0.01);
+   animation-iteration-count: infinite;
+}
+
+footer{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 100px;
+}
+footer img{
+ 
+   width: 100px;
+   height: auto;
+   padding-bottom: 20px;
+}
+/* tr:nth-child(odd) {background-color: #f2f2f2;}
+tr:nth-child(even) {background-color: #edb1f1;} */
+ 
+@keyframes logo {
+   from {
+       transform: translate3d(0, 0, 0);
+   }
+   to {
+       transform: translate3d(0, 500px, 0);
+   }
+}
+
+ 
+logo {
+   -webkit-animation-name: bounce;
+   -webkit-animation-duration: 1.75s;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-timing-function: cubic-bezier(
+   5, 5, 1, 5);
+   -webkit-animation-iteration-count: infinite;
+}
+ 
+@-webkit-keyframes bounce {
+   from {
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+   }
+   to {
+       -webkit-transform: translate3d(0, 500px, 0);
+       transform: translate3d(0, 30px, 0);
+   }
+}
+
+table{
+   font-size: 22px;
+   padding:10px;
+   width:100%;
+   
+}
+thead tr{
+   background: linear-gradient(to top, #4d0066 0%, plum 100%);
+   margin-bottom: 50px;
+   color: white;
+}
+#telegramButton{
+   width: 20%;
+   border-radius: 20px;
+   background: linear-gradient(to top, #4d0066 0%, plum 100%);
+   color: white;
+   display: flex;
+   margin: 0 auto;
+   text-align: center;
+   justify-content: center;
+   padding: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   
+}
+#telegramButton:hover{
+   
+   color: #220440;
+   background-color: white;
+}
+
+.navbar.scrolled {
+   background-color:#270d30 !important;
+   transition: background-color 200ms linear;
+   
+ }
+
+ .container2 {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+ }
+ 
+ .text-box {
+   flex: 1;
+   margin: 0 10px;
+   text-align: center;
+   color: white;
+  
+  
+   border-radius: 20px; 
+ }
+ 
+ #image2{
+    width: 300px;
+    height: auto;
+ }
+
+ .text-box h3{
+    color: #000;
+ }
+ .text-box img{
+   margin: 10px;
+}
+ #image3{
+display: flex;
+justify-content: center;
+
+ }
+ #image3 img{
+width: 300px;
+height: auto;
+ }
+
+ #mobileOptions{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+ }
+ #mobileOptions img{
+    width: 100px;
+    height: auto;
+    background: linear-gradient(to top, #4d0066 0%, plum 100%);
+   border-radius: 50px;
+   margin: 30px;
+   color: white;
+ }
+.imgSmall{
+  
+   width: 60px;
+   height: auto;
+  padding-bottom: 0px;
+  background-color: white;
+  border-radius: 350px;
+  border-color: black;
+ 
+
+}
+
+.imgBig{
+   width: 150px;
+   height: auto;
+   background-color: transparent;
+   animation: bounce 1.75s;
+   animation-direction: alternate;
+   animation-timing-function: cubic-bezier(0.01, 0.01, 0.01, 0.01);
+   animation-iteration-count: infinite;
+   margin-bottom: 20px;
+}
+footer{color: white;
+   background-color: #4d0066;
+padding-top: 70px;
+text-align: center;}
+
+table{
+/* Created with https://www.css-gradient.com */
+background: #250372;
+background: -webkit-linear-gradient(top left, #0c010f, #B04BE2);
+background: -moz-linear-gradient(top left,#0c010f, #B04BE2);
+background: linear-gradient(to bottom right,#0c010f, #0c010f);
+color: white;
+}
+td {
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-right:20px;   
+   padding-left:20px;   
+   border-bottom: 1px solid white;
+ }
+ th {
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-right:20px;   
+   padding-left:20px;   
+  
+ }
+
+ /* For devices with a maximum width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+   /* Your styles for tablet and smaller devices go here */
+   #image3{
+      display: flex;
+      flex-direction: column;
+   }
+   #image3 img{
+      margin: 0 auto;
+   }
+   .logos{
+      display: none;
+   }
+ }
+ 
+ /* For devices with a maximum width of 600px (smaller tablets and larger phones) */
+ @media (max-width: 425px) {
+
+   /* Your styles for smaller tablets and larger phones go here */
+   .imgBig{
+      width: 60px;
+      height: 60px;
+   }
+   .logo{
+      display: none;
+   }
+   #title h1{
+      font-size: 50px;
+   }
+   div.row{
+      flex-direction: column;
+   }
+   #mobileOptions img{
+      width: 60px;
+
+   }
+   #mobileOptions h6{
+      display: none;
+
+   }
+   .imgBig{
+      display: none;
+   }
+   footer{
+      padding-bottom: 70px;
+   }
+   table {
+      max-width: 100%;
+      font-size: 14px;
+      overflow-x: auto;
+    }
+    th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  #telegramButton{
+     width:80%;
+  }
+    
+ }
+ 
+ /* For devices with a maximum width of 480px (smaller phones) */
+ @media (max-width: 375px) {
+   #telegram{
+       font-size: 40px;
+    }
+    #market{
+      font-size: 40px;
+   }
+   /* Your styles for smaller phones go here */
+ }
+ 
+
+
